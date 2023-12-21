@@ -1,0 +1,14 @@
+:root{
+    --bgcolor: #A60815;
+    --secondary: #0D448C;
+    --highlight: #ADC0D9;
+    --ligth: #F2B705;
+    --extra: #F2EAD0;
+
+}
+
+body{
+    background-color: var(--highlight);
+}
+
+

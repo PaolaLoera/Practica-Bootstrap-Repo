@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Styles.css">
+    <title>Practica Bootstrap</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menú</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/291777717_462472652375263_5499747558192684299_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeFAuvoho8lQRDfbEjaKKEkARWubvmjdbZZFa5u-aN1tliLmz3kV5_pAPdiARDukLb0g02tBxTjwz_MYlWB1YBcc&_nc_ohc=INI4WHBGzEAAX_gkINj&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfCHURwHPbx2DNw13shD4RjSoTEsuJ-1EjLHGtmiuWfuwA&oe=65899861" class="card-img-top" alt="fotomiqueshulo">
+                    <div class="card-body">
+                      <h5 class="card-title">¡Siguenos en Facebook!</h5>
+                      <p class="card-text">Conéctate con nosotros para conocer las últimas novedades y ofertas exclusivas. ¡Te esperamos!</p>
+                      <a href="#" class="btn btn-primary">FB Mi Que Shulo</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-sm-6">
+                <ul class="list-group">
+                    <li class="list-group-item">PROMOCIONES</li>
+                    <li class="list-group-item">Lunes - </li>
+                    <li class="list-group-item">Martes - </li>
+                    <li class="list-group-item">Sabados -</li>
+                    <li class="list-group-item">TODOS LOS DIAS - </li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container border mt-4">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/289054335_453023156653546_4602008369908110856_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeFTYYb2_8xlr0KpEa7GMKZc3gdv_5FX9mveB2__kVf2a3IPNl5hbQYWnDKSYzQQnCX_dJYW5yOH9Kyx1nU5bVd-&_nc_ohc=H1y9nwid3e8AX8iBmj5&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfA-opi_cRJpuUBsUNeiJnWXyUOfK4c3NoqRglchPKJ5Eg&oe=6589235A" class="d-block w-100 img-fluid" alt="promopozole">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/287483702_448889017066960_3939233549499309726_n.png?_nc_cat=106&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeEIBwraKOaO7npxzFresy-Zt2HVWzXMlra3YdVbNcyWttJSjzjCh5RaOGo3pz74P1972Vnh4vDDyqRppyHGnN0h&_nc_ohc=h9jIAUe7hxMAX8vmFQp&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfB3LaQYCgnU9Xd_MxCfgwbL63tE1gWIz-J3ofJzcRdBYA&oe=6588B20D" class="d-block w-100 img-fluid" alt="promosopes">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://scontent.fgdl3-1.fna.fbcdn.net/v/t39.30808-6/277804121_403637274925468_2810637322362855896_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeGyuoLu7BNMzw4koRV5x2LIMIQIcRpHYY0whAhxGkdhjeReF0TAg6RZqc0x_cDofSFKY3-7Z6PkTdhhgHbuiyUO&_nc_ohc=_zYYZDl4D5wAX_9VwiW&_nc_ht=scontent.fgdl3-1.fna&oh=00_AfDIBq0gRkMJQKi2VKThynRjB2iLQDFduMXuzy8xaApNkw&oe=6588BEDA" class="d-block w-100 img-fluid" alt="promoenchi">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
