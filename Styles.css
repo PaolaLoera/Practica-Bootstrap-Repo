@@ -10,3 +10,23 @@
 body{
     background-color: var(--highlight);
 }
+
+.sticky-top{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#carouselExample{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#carouselExample img{
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
